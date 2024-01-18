@@ -85,6 +85,7 @@ let ladoB = prompt("ingrese el siguiente numero")
 let x = Number (ladoA)
 let y = Number(ladoB)
 
+
 let hipo = Math.sqrt(Math.pow(ladoA, 2) + Math.pow(ladoB, 2))
 
 
