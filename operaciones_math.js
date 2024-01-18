@@ -74,14 +74,19 @@ console.log(cnr1);
 let cnr2 = 4;
 cnr2--;
 console.log(cnr2);
-
+/*----------------------------------------------------------------------------------*/
 console.log("aqui esta la investigacion de el teorema de pitagoras")
 alert("hola, puedes ingresar 2 numeros para hallar la ipotenusa")
-let resul1 = prompt("ingrese su primer numero")
-let resul2 = prompt("ingrese el siguiente numero")
-console.log(Math.floor(Math.sqrt(resul1)))
-console.log(Math.floor(Math.sqrt(resul2)))
-let resul3 = resul1 + resul2
-console.log(resul3)
+/* intento que el calculo sea de:
+c = a2 + b2 */
+
+let ladoA = prompt("ingrese su primer numero")
+let ladoB = prompt("ingrese el siguiente numero")
+let x = Number (ladoA)
+let y = Number(ladoB)
+
+let hipo = Math.sqrt(Math.pow(ladoA, 2) + Math.pow(ladoB, 2))
+
+
 
 
