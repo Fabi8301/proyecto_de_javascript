@@ -17,30 +17,30 @@ let nuy = 6;
 console.log(x > y);
 
 //aqui esta un ejercicio pendiente
-/*
-const c = "5";
+
+const nu = "5";
 //¿Qué tipo de dato tiene la siguente variable? const c = 91;
 //¿Cuál de los dos es mejor?, línea 1 or línea 2?
 let empty1 = undefined; //line 1
 let empty2 = null; //line 2
 //¿Qué salida producen en consola?
-let a = "Hello";
-a = "world";
-console.log(a);
+let f = "Hello";
+f = "world";
+console.log(f);
 //¿Qué se mostrará en la consola?
-let a = "world";
-let b = `Hello ${a}!`;
-console.log(b);
+let ab = "world";
+let bb = `Hello ${ab}!`;
+console.log(bb);
 //¿Cuál es el valor de a?
-let a = "Hello";
-a = prompt("world");
-console.log(a);
+let ac = "Hello";
+ac = prompt("world");
+console.log(ac);
 //¿Cuál es el valor de b en la consola?
-let a = 5;
-let b = 70;
+let ad = 5;
+let bd = 70;
 let c = "5";
-b++;
-console.log(b);
+bd++;
+console.log(bd);
 //¿Cuál es el valor de este resultado? let result = 3 + 4 * 2 / 8;
 //¿Cuál es el valor de total y total2?
 let firstNum = 5;
@@ -58,4 +58,4 @@ console.log(a > 0 && b > 0);
 console.log(a == 5 && b == 4);
 console.log(true ||false);
 console.log(a == 3 || b == 10);
-console.log(a == 3 || b == 7);*/
+console.log(a == 3 || b == 7);

@@ -25,3 +25,10 @@ const semilla1 = arr.splice(0,2);
 const semilla2 = arr[3]
 const mezcla = semilla1.concat(semilla2)
 console.log(mezcla);
+
+//array multidimencionales
+let someValues1 = [1, 2, 3];
+let someValues2 = [4, 5, 6];
+let someValues3 = [7, 8, 9];
+arrOfArrays = [someValues1, someValues2, someValues3];
+console.log(arrOfArrays);
