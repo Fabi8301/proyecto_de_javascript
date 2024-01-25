@@ -9,6 +9,11 @@ embutido.splice(2, 0, "carne", "lechuga");
 console.log(embutido)
 //el codigo de shift para eliminar valores de forma lineal 
 let arr = ["manzana","banana", "naranja", "limon"]
-console.log(arr, arr.length)
-arr.shift(1, 1)
+console.log(arr, arr.length);
+//arr.shift(0, 2)
+console.log(arr);
+
+//delete funciona casi de la misma manera 
+//elimina y remplaza el valor por undefiand
+delete arr[2]
 console.log(arr);
